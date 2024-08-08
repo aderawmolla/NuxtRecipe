@@ -1,4 +1,6 @@
 <template>
+  
+
     <div class="max-w-6xl mx-auto p-6  bg-white rounded-lg shadow-lg">
       <!-- Recipe Image Carousel -->
      <!-- Container for image and overlay content -->
@@ -9,6 +11,23 @@
     class="w-full h-64 object-cover rounded-lg"
     draggable="false"
   />
+
+  <v-carousel>
+  <v-carousel-item
+    src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+    cover
+  ></v-carousel-item>
+
+  <v-carousel-item
+    src="https://cdn.vuetifyjs.com/images/cards/hotel.jpg"
+    cover
+  ></v-carousel-item>
+
+  <v-carousel-item
+    src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
+    cover
+  ></v-carousel-item>
+</v-carousel>
 
   <!-- Overlay Content -->
   <div class="absolute top-0 left-5 right-50 bottom-0 bg-gradient-to-t from-black via-transparent to-transparent p-4 flex flex-col justify-end">

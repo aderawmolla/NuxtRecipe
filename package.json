@@ -10,11 +10,23 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@pinia/nuxt": "^0.5.3",
+    "@vue/apollo-composable": "^4.0.2",
     "nuxt": "^3.12.4",
-    "vue": "latest"
+    "pinia": "^2.2.1",
+    "primevue": "^4.0.3",
+    "vue": "latest",
+    "vue-upload-multiple-image": "^1.1.6"
   },
   "devDependencies": {
     "@nuxtjs/apollo": "^5.0.0-alpha.14",
-    "@nuxtjs/tailwindcss": "^6.12.1"
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "@primevue/nuxt-module": "^4.0.3",
+    "vite-plugin-vuetify": "^2.0.3",
+    "vuetify": "^3.6.14"
+  },
+  "overrides": {
+    "vue": "latest"
   }
 }

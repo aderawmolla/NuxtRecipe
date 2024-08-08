@@ -1,0 +1,20 @@
+multiple image preview
+
+multi select category
+
+carosoul
+
+....day....
+frontend concepts...props,composables
+using vee-validate
+the concept of layouts and server  public environment variables
+constant theme and color
+....night....
+Backend setup with full understand
+write the schema of the app....use the tool to generate schema from the output if you can\
+Actions with golang
+finish Authentication with frontend
+
+
+
+
